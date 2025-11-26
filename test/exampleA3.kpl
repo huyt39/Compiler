@@ -1,0 +1,5 @@
+Program Sample;
+Begin
+   (* Đây là một comment
+      nhưng bị thiếu dấu đóng comment
+End.

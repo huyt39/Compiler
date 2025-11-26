@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/macbook/Downloads/GuiSV_Scanner",
+      "program": "/Users/macbook/Downloads/GuiSV_Scanner/build/Debug/outDebug"
+    }
+  ]
+}

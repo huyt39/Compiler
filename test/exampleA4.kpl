@@ -1,0 +1,7 @@
+Program DemoLongVar;
+
+Var
+    thisVariableNameIsWayTooLongAndContains1234567890AndShouldCauseAnError : Integer;
+
+Begin
+End.

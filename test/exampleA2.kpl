@@ -1,0 +1,8 @@
+Program DemoCharError;
+Var
+   a, b : Char;
+Begin
+   a := 'xy';      (* Lỗi: Hằng ký tự phải gồm đúng 1 ký tự *)
+   b := '
+';          (* Lỗi: Hằng ký tự không được xuống dòng *)
+End.
