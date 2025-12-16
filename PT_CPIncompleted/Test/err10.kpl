@@ -1,0 +1,8 @@
+PROGRAM InvalidType;
+VAR 
+    (* Lỗi: "PROGRAM" không phải là một kiểu dữ liệu hợp lệ (INTEGER, BOOLEAN, v.v.) *)
+    z : PROGRAM; 
+
+BEGIN
+    z := 1;
+END.

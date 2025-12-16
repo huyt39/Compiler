@@ -1,0 +1,11 @@
+PROGRAM InvalidConst;
+
+CONST
+    (* Lỗi: Giá trị hằng số phải là một giá trị cố định (số, chuỗi, boolean), không phải là khối lệnh BEGIN...END *)
+    MaxIterations = BEGIN 10 END; 
+    
+VAR i : INTEGER;
+
+BEGIN
+    i := 5;
+END.

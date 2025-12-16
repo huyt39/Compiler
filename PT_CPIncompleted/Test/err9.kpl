@@ -1,0 +1,9 @@
+PROGRAM InvalidTerm;
+VAR j : INTEGER;
+
+BEGIN
+    (* Lỗi: Thiếu một term hợp lệ sau toán tử cộng. "PROGRAM" không phải là một term hợp lệ *)
+    j := 10 + PROGRAM; 
+    
+    j := 0; (* Lệnh hợp lệ để kết thúc khối BEGIN *)
+END.

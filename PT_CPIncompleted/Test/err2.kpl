@@ -1,0 +1,14 @@
+PROGRAM InvalidArgs;
+VAR result : INTEGER;
+
+PROCEDURE CalSum(a : INTEGER; b : INTEGER);
+BEGIN
+    
+END;
+
+BEGIN
+    (* Lỗi: Thiếu đối số thứ hai *)
+    CalculateSum(10);
+    
+    result := 0; 
+END.

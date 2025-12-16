@@ -1,0 +1,9 @@
+PROGRAM ErrExpression;
+VAR sum : INTEGER;
+
+BEGIN
+    (* Lỗi: Phép gán không có biểu thức hoàn chỉnh sau dấu = *)
+    sum := 10 +;
+    
+    sum := 0; 
+END.

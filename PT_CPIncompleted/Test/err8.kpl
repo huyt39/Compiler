@@ -1,0 +1,11 @@
+PROGRAM StatementErr;
+VAR a : INTEGER;
+
+BEGIN
+    a := 5;
+    
+    (* Lỗi: Khai báo biến (VAR) không được phép bên trong khối lệnh BEGIN...END *)
+    VAR b : INTEGER; 
+    
+    b := a + 1;
+END.

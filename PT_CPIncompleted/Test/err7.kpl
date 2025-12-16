@@ -1,0 +1,11 @@
+PROGRAM ParamErr;
+
+(* Lỗi: Tham số phải là một định danh (tên biến), không phải là một giá trị hằng số như 50 *)
+PROCEDURE ProcessData(50 : INTEGER);
+BEGIN
+    (* Thân thủ tục *)
+END;
+
+BEGIN
+    ProcessData(10);
+END.

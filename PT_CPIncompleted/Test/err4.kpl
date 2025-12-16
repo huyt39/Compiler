@@ -1,0 +1,12 @@
+PROGRAM LoopErr;
+VAR count : INTEGER;
+
+BEGIN
+    count := 5;
+    
+    (* Lỗi: Biểu thức điều kiện của WHILE phải là Boolean, không phải giá trị INTEGER đơn *)
+    WHILE count DO 
+        count := count - 1;
+    
+    count := 0; 
+END.

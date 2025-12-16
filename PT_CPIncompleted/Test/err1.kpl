@@ -1,0 +1,13 @@
+PROGRAM BasicTypeErr;
+
+(* Lỗi: "BEGIN" không phải là một kiểu dữ liệu cơ bản hợp lệ *)
+FUNCTION GetValue : BEGIN;
+BEGIN
+    RETURN 0; (* Giả sử hàm phải trả về một giá trị *)
+END;
+
+VAR x : INTEGER;
+
+BEGIN
+    x := 5;
+END.

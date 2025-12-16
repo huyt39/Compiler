@@ -1,0 +1,9 @@
+PROGRAM InvalidFactor;
+VAR i : INTEGER;
+
+BEGIN
+    (* Lỗi: Thiếu factor sau dấu phép toán trừ. Ví dụ: i := 10 -; *)
+    i := 5 - * 2;
+    
+    i := 0; 
+END.

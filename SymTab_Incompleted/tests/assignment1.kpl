@@ -1,0 +1,44 @@
+PROGRAM UPPERTRIANGLE;
+TYPE
+    ROW = ARRAY(. 100 .) OF INTEGER;
+VAR
+    A: ARRAY(. 100 .) OF ROW;
+    N : INTEGER;
+    I : INTEGER;
+    J : INTEGER;
+    ISUPPER: INTEGER;
+
+BEGIN
+    N := READI;
+
+    I := 1;
+    WHILE I <= N DO
+    BEGIN
+        J := 1;
+        WHILE J <= N DO
+        BEGIN
+            A(.I.)(.J.) := READI;
+            J := J + 1;
+        END;
+        I := I + 1;
+    END;
+    
+    ISUPPER := 1;
+    I := 2;
+    WHILE I <= N DO
+    BEGIN
+        J := 1;
+        WHILE J < I DO
+        BEGIN
+            IF A(.I.)(.J.) != 0 THEN
+            BEGIN
+                ISUPPER := 0;
+            END;
+            J := J + 1;
+        END;
+        I := I + 1;
+    END;
+
+    CALL WRITEI(ISUPPER);
+    CALL WRITELN;
+END.
