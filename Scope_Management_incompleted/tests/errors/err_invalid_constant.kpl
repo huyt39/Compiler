@@ -1,0 +1,5 @@
+PROGRAM INVALIDCONST;
+CONST 
+  C = READC; (* lỗi: READC là 1 hàm/thủ tục, không thể gán cho hằng *)
+BEGIN
+END.

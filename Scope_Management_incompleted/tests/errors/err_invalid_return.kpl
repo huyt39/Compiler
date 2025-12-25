@@ -1,0 +1,16 @@
+PROGRAM INVALIDRETURN;
+
+FUNCTION CALC(N : INTEGER) : INTEGER;
+BEGIN
+  CALC := N * 2; (* hợp lệ: gán cho hàm hiện tại *)
+END;
+
+FUNCTION CHECK : INTEGER;
+BEGIN
+  (* lỗi: không được phép gán giá trị cho hàm CALC từ bên trong hàm CHECK *)
+  CALC := 10; 
+  CHECK := 1;
+END;
+
+BEGIN
+END.

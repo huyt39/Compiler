@@ -1,0 +1,6 @@
+PROGRAM DUPLICATE;
+VAR 
+  VALUE : INTEGER;
+  VALUE : CHAR; (* lỗi: định danh VALUE đã được khai báo ở trên *)
+BEGIN
+END.

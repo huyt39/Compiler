@@ -1,0 +1,5 @@
+PROGRAM UndeclaredType;
+VAR 
+  AGE : NUMBER; (* kiểu NUMBER không tồn tại, chỉ có INTEGER/CHAR *)
+BEGIN
+END.

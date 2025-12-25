@@ -1,0 +1,6 @@
+PROGRAM INVALIDLVALUE;
+CONST 
+  PI = 3;
+BEGIN
+  PI := 4; (* lỗi: Không thể gán giá trị cho hằng số *)
+END.

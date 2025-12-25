@@ -1,0 +1,6 @@
+PROGRAM INVALIDFACTOR;
+VAR 
+  K : INTEGER;
+BEGIN
+  K := 10 + WRITEC; (* lỗi: WRITEC là thủ tục, không phải hàm/biến có giá trị *)
+END.

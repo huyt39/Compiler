@@ -1,0 +1,6 @@
+PROGRAM UNDECLAREDPROC;
+VAR X : INTEGER;
+BEGIN
+  X := 100;
+  CALL DISPLAY(X); (* thủ tục DISPLAY chưa được khai báo *)
+END.

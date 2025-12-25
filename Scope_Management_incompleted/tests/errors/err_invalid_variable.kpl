@@ -1,0 +1,8 @@
+PROGRAM INVALIDVAR;
+CONST 
+  STEP = 2;
+BEGIN
+  (* STEP là hằng, không thể dùng làm biến chạy cho FOR *)
+  FOR STEP := 1 TO 5 DO
+    CALL WRITELN;
+END.

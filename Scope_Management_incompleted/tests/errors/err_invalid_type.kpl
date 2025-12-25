@@ -1,0 +1,5 @@
+PROGRAM INVALIDTYPE;
+VAR 
+  X : WRITELN; (* lỗi: WRITELN là thủ tục hệ thống, không phải kiểu dữ liệu *)
+BEGIN
+END.

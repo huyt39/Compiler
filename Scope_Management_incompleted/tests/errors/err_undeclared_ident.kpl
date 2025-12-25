@@ -1,0 +1,5 @@
+PROGRAM UNDECLARED;
+BEGIN
+  (* biến M và N chưa được khai báo *)
+  IF M > 10 THEN N := 5;
+END.
