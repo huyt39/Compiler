@@ -1,0 +1,9 @@
+PROGRAM ERRWHILECOND;
+VAR
+  CH : CHAR;
+BEGIN
+  CH := 'A';
+  WHILE CH > 10 DO 
+    BEGIN
+    END;
+END.

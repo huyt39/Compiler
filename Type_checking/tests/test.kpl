@@ -1,0 +1,12 @@
+PROGRAM TEST;
+VAR
+  C : CHAR;
+  A : INTEGER;
+BEGIN
+  A := 10;
+  
+  FOR C := 1 TO A DO
+  BEGIN
+    A := A + 1;
+  END;
+END.

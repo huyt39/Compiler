@@ -1,0 +1,6 @@
+PROGRAM ERRINVALIDDIM;
+VAR
+  LIST : ARRAY(. 20 .) OF CHAR;
+BEGIN
+  LIST(. 5 .)(. 1 .) := 'A'; 
+END.
